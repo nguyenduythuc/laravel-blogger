@@ -6,7 +6,7 @@
      // File Picker modification for FCK Editor v2.0 - www.fckeditor.net
      // by: Pete Forde <pete@unspace.ca> @ Unspace Interactive
      var urlobj;
-     var pathAbsolute = window.Blogger.url + "/";
+     var pathAbsolute = window.location.origin + "/";
      var oWindow;
 
      function BrowseServer(obj)
